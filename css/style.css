@@ -1,18 +1,22 @@
+//body tag
 body{
     margin: 0;
     text-align: center;
     font-family: cursive;
 }
+
 h1 {
     font-size: 60px;
     color: #66bfbf;
     margin: 50px auto 0 auto;
     line-height: 2;
 }
+
 .pas,h2 {
     color: #66bfbf;
     font-weight: normal;
 }
+
 h3{
     color: #11999e;
 }
@@ -21,71 +25,89 @@ h3{
     position: relative;
     padding-top: 100px;
 }
+
 .bottom-cloud{
     position: absolute;
     left: 300px;
     bottom: 300px;
 }
+
 .top-cloud{
     position: absolute;
     right: 300px;
     top: 50px;
 }
+
+//anchor tag or link tag
+
 a{
     color: #11999e;
     font-family: sans-serif;
     margin: 10px 20px;
     text-decoration: none;
 }
+
 a:hover{
     color: #eaf6f6;
 }
+
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
 }
+
 .DD{
     float: left;
     margin-right: 30px;
 }
+
 .chilli{
     height: 150px;
     float: right;
     margin-left: 30px;
 }
+
 .pro-img{
     height: 200px;
 }
+
 .profile{
     width: 30%;
     margin: 50px auto 0 auto;
     line-height: 2;
 }
+
 hr{
     border: dotted #eaf6f6 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
 }
+
 .bottom-container{
     margin-top: 100px;
     background-color: #66bfbf;
     padding: 20px 0 5px;
 }
+
 .contact-me{
     width: 50%;
     margin: 100px auto 100px auto;
     line-height: 2;
 }
+
 .copyright{
     color: #eaf6f6;
     padding: 10px 0;
 }
+
 .spacing{
     margin-bottom: 50px;
 }
+
+// button class
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
